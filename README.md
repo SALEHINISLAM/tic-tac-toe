@@ -1,2 +1,2 @@
 # tic-tac-toe
-trying tic-tac-toe just with html , css and js
+Try my new game tic-tac-toe to spend your leisure time.
