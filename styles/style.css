@@ -1,0 +1,51 @@
+.board-bg {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 1; */
+    width: 80%;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.box {
+    border: 2px solid black;
+    height: 8rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+main button{
+    margin: 1rem;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+}
+.xo {
+    display: grid;
+    width: 50%;
+    grid-template-columns: 50% 50%;
+}
+
+.ox {
+    height: 4rem;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
